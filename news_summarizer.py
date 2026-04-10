@@ -10,7 +10,7 @@ from langchain_core.prompts import ChatPromptTemplate
 search_tool = TavilySearchResults(max_results=5)
 
 # LLM
-llm = ChatMistralAI(model="mistral-small-2506")
+llm = ChatMistralAI(model="mistral-small-2506")         
 
 # Prompt
 prompt = ChatPromptTemplate.from_template(
