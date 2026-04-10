@@ -17,7 +17,7 @@ prompt = ChatPromptTemplate.from_template(
     """
     You are a helpful assistant.
 
-    Summarize the following news into clear bullet points:
+    Summarize the following news into clear bullet points:  
 
     {news}
     """
